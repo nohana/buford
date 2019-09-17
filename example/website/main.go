@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/RobotsAndPencils/buford/certificate"
-	"github.com/RobotsAndPencils/buford/payload"
-	"github.com/RobotsAndPencils/buford/push"
-	"github.com/RobotsAndPencils/buford/pushpackage"
 	"github.com/gorilla/mux"
+	"github.com/nohana/buford/certificate"
+	"github.com/nohana/buford/payload"
+	"github.com/nohana/buford/push"
+	"github.com/nohana/buford/pushpackage"
 )
 
 var (
